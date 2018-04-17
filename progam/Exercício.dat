@@ -1,0 +1,41 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 *** Programa para análise de pórtico plano ***
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+	------DADOS GEREAIS DA ESTRUTURA------
+
+        nome do portico:                  Exemplo1
+        numero de nos:                       5
+        numero de elementos:                 5
+        numero de nos com carga:             1
+        numero de elementos com carga:       2
+        numero de nos vinculados:            2
+
+	------COORDENADAS DO NOS------
+	num. no	        coord. x(m)     coord. y(m)
+
+	   1		   0 		   0
+	   2		   5		   0
+	   3		   0		   3
+	   4		   5		   5
+	   5		   5		   5.5
+
+	------INCIDENCIA------
+	*** sistema de coordenadas globais ***
+	num. elemento       no inicio         no fim           E(kN/m²)            A(m²)              Iz(m⁴)
+
+            1                   1               3               2e+07              0.08               0.001
+            2               	4               2               2e+07              0.08               0.001
+            3               	3               4               2e+07              0.08               0.001
+            4               	3               5               2e+07              0.08               0.001
+            5               	5               4               2e+07              0.08               0.001
+
+	------FORÇAS CONCENTRADAS NODAIS------
+	num. no       força x       força y       momento z
+
+           1            50            100            0
+
+	------FORÇAS DISTRIBUÍDAS NAS BARRAS------
+	*** sistema de coordenadas locais ***
+	num. barra       pxl       pyl
+	    9

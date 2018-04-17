@@ -1,0 +1,152 @@
+reset
+M(x) = (0*x**3)/(6*5)+(-12*x**2)/2+35.993*x-40.2098
+set title "Momento fletor (kN.m)"
+set xrange [ 0 :5] noreverse
+set xlabel "x(m)"
+set ylabel "M(kN.m)"
+set grid
+set xtics 2.999419
+set ytics 13.76932
+set yrange [] reverse
+set term postscript enhanced color; set output "Momento fletor da barra 1.eps"
+plot M(x) with boxes 1 
+
+reset
+N(x) = -(93.89233+-5*x)
+set title "Forca axial (kN)"
+set xlabel "x(m)"
+set ylabel "N(kN)"
+set xrange [ 0 : 5 ]
+set zeroaxis 7
+set yrange [] noreverse
+set term postscript enhanced color; set output "Força axial da barra 1.eps"
+plot N(x) with boxes 2 
+
+reset
+V(x) = 0*x**2/10+-12*x+35.99303
+set title "Forca cortante (kN)"
+set xlabel "x(m)"
+set ylabel "V(kN)"
+set xrange [ 0 : 5 ]
+set zeroaxis 7
+set yrange [] noreverse
+set term postscript enhanced color; set output "Força cortante da barra 1.eps"
+plot V(x) with boxes 3 
+
+reset
+M(x) = (-12*x**3)/(6*4.8)+(-12*x**2)/2+30.70967*x-10.24463
+set title "Momento fletor (kN.m)"
+set xrange [ 0 :4.8] noreverse
+set xlabel "x(m)"
+set ylabel "M(kN.m)"
+set grid
+set xtics 2.099836
+set ytics 23.92693
+set yrange [] reverse
+set term postscript enhanced color; set output "Momento fletor da barra 2.eps"
+plot M(x) with boxes 1 
+
+reset
+N(x) = -(53.04098+0*x)
+set title "Forca axial (kN)"
+set xlabel "x(m)"
+set ylabel "N(kN)"
+set yrange [-53.04098:53.04098]  noreverse
+set term postscript enhanced color; set output "Força axial da barra 2.eps"
+plot N(x) with boxes 2 
+
+reset
+V(x) = -12*x**2/9.6+-12*x+30.70967
+set title "Forca cortante (kN)"
+set xlabel "x(m)"
+set ylabel "V(kN)"
+set xrange [ 0 : 4.8 ]
+set zeroaxis 7
+set yrange [] noreverse
+set term postscript enhanced color; set output "Força cortante da barra 2.eps"
+plot V(x) with boxes 3 
+
+reset
+M(x) = (0*x**3)/(6*2)+(0*x**2)/2+18.36121*x-40.38617
+set title "Momento fletor (kN.m)"
+set xrange [ 0 :2] noreverse
+set xlabel "x(m)"
+set ylabel "M(kN.m)"
+set yrange [] reverse
+set term postscript enhanced color; set output "Momento fletor da barra 3.eps"
+plot M(x) with boxes 1 
+
+reset
+N(x) = -(53.7238+0*x)
+set title "Forca axial (kN)"
+set xlabel "x(m)"
+set ylabel "N(kN)"
+set yrange [-53.7238:53.7238]  noreverse
+set term postscript enhanced color; set output "Força axial da barra 3.eps"
+plot N(x) with boxes 2 
+
+reset
+V(x) = 0*x**2/4+0*x+18.36121
+set title "Forca cortante (kN)"
+set xlabel "x(m)"
+set ylabel "V(kN)"
+set yrange [-18.36121:18.36121] noreverse
+set term postscript enhanced color; set output "Força cortante da barra 3.eps"
+plot V(x) with boxes 3 
+
+reset
+M(x) = (0*x**3)/(6*2)+(0*x**2)/2+-21.63879*x--31.33624
+set title "Momento fletor (kN.m)"
+set xrange [ 0 :2] noreverse
+set xlabel "x(m)"
+set ylabel "M(kN.m)"
+set yrange [] reverse
+set term postscript enhanced color; set output "Momento fletor da barra 4.eps"
+plot M(x) with boxes 1 
+
+reset
+N(x) = -(53.7238+0*x)
+set title "Forca axial (kN)"
+set xlabel "x(m)"
+set ylabel "N(kN)"
+set yrange [-53.7238:53.7238]  noreverse
+set term postscript enhanced color; set output "Força axial da barra 4.eps"
+plot N(x) with boxes 2 
+
+reset
+V(x) = 0*x**2/4+0*x+-21.63879
+set title "Forca cortante (kN)"
+set xlabel "x(m)"
+set ylabel "V(kN)"
+set yrange [21.63879:-21.63879] noreverse
+set term postscript enhanced color; set output "Força cortante da barra 4.eps"
+plot V(x) with boxes 3 
+
+reset
+M(x) = (0*x**3)/(6*8.765843)+(0*x**2)/2+1.208697*x-3.8232
+set title "Momento fletor (kN.m)"
+set xrange [ 0 :8.765843] noreverse
+set xlabel "x(m)"
+set ylabel "M(kN.m)"
+set yrange [] reverse
+set term postscript enhanced color; set output "Momento fletor da barra 5.eps"
+plot M(x) with boxes 1 
+
+reset
+N(x) = -(1.952604+0*x)
+set title "Forca axial (kN)"
+set xlabel "x(m)"
+set ylabel "N(kN)"
+set yrange [-1.952604:1.952604]  noreverse
+set term postscript enhanced color; set output "Força axial da barra 5.eps"
+plot N(x) with boxes 2 
+
+reset
+V(x) = 0*x**2/17.53169+0*x+1.208697
+set title "Forca cortante (kN)"
+set xlabel "x(m)"
+set ylabel "V(kN)"
+set yrange [-1.208697:1.208697] noreverse
+set term postscript enhanced color; set output "Força cortante da barra 5.eps"
+plot V(x) with boxes 3 
+
